@@ -17,4 +17,4 @@ USER nyu
 
 COPY --chown=nyu:nyu . .
 
-CMD [ "python", "./AuthServer.py" ]
+CMD [ "python", "./auth_server.py" ]

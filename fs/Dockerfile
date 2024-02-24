@@ -17,4 +17,4 @@ USER nyu
 
 COPY --chown=nyu:nyu . .
 
-CMD [ "python", "./FibServer.py" ]
+CMD [ "python", "./fibon_server.py" ]

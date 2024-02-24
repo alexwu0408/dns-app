@@ -17,5 +17,5 @@ USER nyu
 
 COPY --chown=nyu:nyu . .
 
-CMD [ "python", "./UserServer.py" ]
+CMD [ "python", "./user_server.py" ]
 
